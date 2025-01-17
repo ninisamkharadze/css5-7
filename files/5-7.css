@@ -1,0 +1,585 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+    background-color: #0B0B0E;
+    align-items: center;
+}
+
+
+.headerDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 14px 0px 14px 0px;
+    width: 1040px;
+    width: 100%;
+    border-bottom: 1px solid #003004;
+}
+
+.navDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.navAStyles {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.logoStyles {
+    width: 228px;
+    height: 58px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+    align-items: center;
+}
+
+.cardImgAndTextDiv {
+    display: flex;
+    flex-direction: row;
+    width: 1040px;
+    justify-content: space-between;
+}
+
+.cardNextText {
+    display: flex;
+    flex-direction: column;
+    width: 564px;
+    gap: 16px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.h1P {
+    color: #7A7A7A;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.firstButtonDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.orangeButton {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 24px;
+    background-color: #FF371A;
+    padding: 12px 24px;
+}
+
+.blackButton {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #2F2C33;
+    border-radius: 24px;
+    background-color: #0B0B0E;
+    padding: 12px 24px;
+    width: 200px;
+}
+
+.logoDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.h2AndImgDivs {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.firstH2 {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.twoDivIn {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.firsBigDiv {
+    display: flex;
+    flex-direction: column;
+    width: 508px;
+    gap: 24px;
+}
+
+.littleDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 16px;
+    background-color: #191919;
+    border-radius: 12px;
+}
+
+.h3AndPDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.decentralizedH3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.UnstoppableP {
+    color: #797979;
+    font-size: 16px;
+}
+
+.secondLittleDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding: 16px;
+    background-color: #191919;
+    border-radius: 12px;
+}
+
+.secondH3AndPDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.secondTextNextImg {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 356px;
+    justify-content: center;
+}
+
+.secondBigDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.imgsizesm {
+    width: 96px;
+    height: 104px;
+}
+
+.littlefirstDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    background-color: #191919;
+    padding: 16px;
+    border-radius: 12px;
+    flex-grow: 1;
+}
+
+.h3AndLittleP {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.secondLittleDDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: #191919;
+    padding: 16px;
+    border-radius: 12px;
+    flex-grow: 1;
+}
+
+.costumerH2 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.costumerAndTextDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.justTextDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.costumerP {
+    color: #7A7A7A;
+    font-size: 20px
+}
+
+.costumerDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.costumerBigDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.firstCostumerLittleDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px;
+    width: 508px;
+    background-color: #191919;
+    border-radius: 12px;
+}
+
+.costumerLittleP {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.luttleTextDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.starStyles {
+    width: 116px;
+    height: 20px;
+}
+
+.avtarAndTextDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+.spanAndTickDiv {
+    display: flex;
+    flex-direction: row; 
+    gap: 4px;
+}
+
+.tickSpan {
+    color: #535862;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.tickStyles {
+    width: 16px;
+    height: 16px;
+}
+
+.parentTextAndSpan {
+    display: flex;
+    flex-direction: column;
+}
+
+.costyumerBigDivSecond {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.formAndTextDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 64px;
+    background-color: #191919;
+    border-radius: 16px;
+    width: 1040px;
+}
+
+.thinkDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.formAndPDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.pAndForm {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+::placeholder {
+    color: #717680;
+    font-size: 16px
+}
+
+input {
+    padding: 12px 14px;
+    border: 1px solid #7A7A7A;
+    border-radius: 8px;
+    background-color: #0B0B0E;
+}
+
+
+.formP {
+    color: #7A7A7A;
+    font-size: 14px;
+}
+
+.orange {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 12px;
+    background-color: #FF371A;
+    padding: 12px 24px;
+    align-self: flex-start;
+}
+
+.cardAndTextDiv {
+    display: flex;
+    flex-direction: column;
+    width: 1040px;
+    gap: 40px;
+}
+
+.cardMainTextDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
+
+.cardH2 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 800;
+    flex-grow: 1;
+}
+
+.cardP {
+    color: #7A7A7A;
+    font-size: 18px;
+    flex-grow: 1;
+}
+
+.threeCardDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.coastDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #888;
+}
+
+.coastAnSpan {
+    display: flex;
+    flex-direction: column;
+}
+
+.first {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.second {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.spanStyles {
+    color: #7A7A7A;
+    font-size: 16px;
+    line-height: 260%;
+}
+
+.Card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 40px;
+    background-color: #191919;
+}
+
+.listAndButtonDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+
+.listDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+
+.orangeButtonInCard {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 108px 21px 108px;
+    border: 1.5px solid #FF371A;
+    background-color: #FF371A;
+}
+
+.blackButtonn {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 108px 21px 108px;
+    border: 1.5px solid #FF371A;
+    background-color: #191919;
+}
+
+.spanDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.littleOrangeButton {
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 12px 6px 12px;
+    border: none;
+    background-color: #FF371A;
+}
+
+#visitSpanId {
+    line-height: normal;
+}
+
+.underButtonsDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tickAndTextDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    width: 479px;
+}
+
+.justText {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.orangeTick {
+    align-self: flex-start;
+}
+
+.footerLogoDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 320px;
+}
+
+.footerLogo {
+    width: 180.679px;
+    height: 42px;
+}
+
+.rating {
+    width: 142.2px;
+}
+
+.footerP {
+    color: #fff;
+    font-size: 16px;
+}
+
+.columnDivs {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.footerFirstDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.footerIconDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.footerSecondDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+    padding-bottom: 32px;
+}
