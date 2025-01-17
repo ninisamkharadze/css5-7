@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+.everythingDiv {
     display: flex;
     flex-direction: column;
     gap: 112px;
